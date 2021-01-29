@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: DeckardMultiPass
   m_Shader: {fileID: 4800000, guid: 5e9cd71583ef32047be32e23795840a3, type: 3}
   m_ShaderKeywords: 
@@ -107,10 +108,11 @@ Material:
     - _fringeRadius: 0.5
     - _letterboxing: 1
     - _offset: -0.05
-    - _saturation: 1.09
+    - _saturation: 1
     - _saturation1: 1
     - _scale: 40.75
-    - _step: 7
+    - _step: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _StreakColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

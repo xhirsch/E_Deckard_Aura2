@@ -926,7 +926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1645018905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6083,7 +6083,7 @@ MonoBehaviour:
       yNegativeCylinderFade: 0.25
       yPositiveCylinderFade: 0.25
       distanceSphereFade: 0.5
-  useAsLightProbesProxyVolume: 0
+  useAsLightProbesProxyVolume: 1
   lightProbesMultiplier: 1
   texture2DMask:
     enable: 0

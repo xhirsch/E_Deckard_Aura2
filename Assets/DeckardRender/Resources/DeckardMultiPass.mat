@@ -111,7 +111,7 @@ Material:
     - _saturation: 1
     - _saturation1: 1
     - _scale: 40.75
-    - _step: 0
+    - _step: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _StreakColor: {r: 1, g: 1, b: 1, a: 0}

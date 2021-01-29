@@ -23,6 +23,14 @@ namespace Aura2API //Original from Unity, changed namespace to avoid conflicts w
 
         void Update()
         {
+
+            var speed = Time.deltaTime * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : moveSpeed);
+            var forward = speed * Input.GetAxis("Vertical");
+            var right = speed * Input.GetAxis("Horizontal");
+            var up = speed * ((Input.GetKey(KeyCode.Q) ? 1f : 0f) - (Input.GetKey(KeyCode.E) ? 1f : 0f));
+            transform.position += transform.forward * forward + transform.right * right + Vector3.up * up;
+
+
             if (!freeLookEnabled)
                 return;
 
@@ -30,11 +38,7 @@ namespace Aura2API //Original from Unity, changed namespace to avoid conflicts w
             m_pitch = (m_pitch - lookSpeed * Input.GetAxis("Mouse Y")) % 360f;
             transform.rotation = Quaternion.AngleAxis(m_yaw, Vector3.up) * Quaternion.AngleAxis(m_pitch, Vector3.right);
 
-            var speed = Time.deltaTime * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : moveSpeed);
-            var forward = speed * Input.GetAxis("Vertical");
-            var right = speed * Input.GetAxis("Horizontal");
-            var up = speed * ((Input.GetKey(KeyCode.Q) ? 1f : 0f) - (Input.GetKey(KeyCode.E) ? 1f : 0f));
-            transform.position += transform.forward * forward + transform.right * right + Vector3.up * up;
+
         }
     }
 }

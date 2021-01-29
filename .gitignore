@@ -9,7 +9,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-/BOTD_Standard Shader/
+
+#ignore BOTD Assets
+BOTD**/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta

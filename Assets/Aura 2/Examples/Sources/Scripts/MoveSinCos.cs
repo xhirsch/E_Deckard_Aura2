@@ -46,7 +46,7 @@ namespace Aura2API
             sinVector = space == Space.World ? sinVector : transform.localToWorldMatrix.MultiplyVector(sinVector);
             cosVector = space == Space.World ? cosVector : transform.localToWorldMatrix.MultiplyVector(cosVector);
 
-            transform.position = _initialPosition + sinVector + cosVector;
+            transform.localPosition = _initialPosition + sinVector + cosVector;
         }
     }
 }

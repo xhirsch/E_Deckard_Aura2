@@ -12,6 +12,7 @@
 
 #ignore BOTD Assets
 BOTD*/
+[Cc]apture/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta

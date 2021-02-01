@@ -969,6 +969,9 @@ GameObject:
   - component: {fileID: 1645018905}
   - component: {fileID: 1645018908}
   - component: {fileID: 1645018909}
+  - component: {fileID: 1645018911}
+  - component: {fileID: 1645018910}
+  - component: {fileID: 1645018912}
   m_Layer: 3
   m_Name: Aura DroneCam
   m_TagString: Untagged
@@ -1007,7 +1010,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 54.12, y: 25.59}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 35
+  m_FocalLength: 100.57692
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1016,7 +1019,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 40.16194
+  field of view: 14.5
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1129,6 +1132,170 @@ MonoBehaviour:
   m_AfterStackBundles:
   - assemblyQualifiedName: DeckardDepthRenderPPSSettings, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1645018910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645018904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524303e4456c216438fc1f7e9bff65ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQuality: 70
+  editorQuality: 8
+  finalSteps: 8
+  shutterAngle: 180
+  fStop: 13.1
+  anamorphicRatio: 1
+  focusTransform: {fileID: 0}
+  rt: {fileID: 0}
+  rtA: {fileID: 0}
+  rt2: {fileID: 0}
+  cam: {fileID: 1645018906}
+  multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
+  clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
+  finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
+  focusDistance: 5
+  antiAliasing: 1
+  sharpen: 0
+  sharpenRadius: 1
+  BufferPassMat: {fileID: 2100000, guid: 9f3ff19fa47fcc14684125ad23b341e9, type: 2}
+  BufferQuiltPassMat: {fileID: 2100000, guid: 9f22702c329cede43b434c11d691a1ae, type: 2}
+  multipassDepthMat: {fileID: 2100000, guid: b2bd2fbe6b466a142b4deffed215c344, type: 2}
+  FPS: 24
+  NumberOfFramesToRender: 100
+  StartFrame: 1
+  RenderInfo: 
+  Folder: Capture
+  Mp4Bitrate: 22000
+  resolution: 1920
+  resolutionH: 1080
+  sequenceLength: 
+  ImageFormatType: 0
+  SharpDetectType: 0
+  RenderType: 0
+  formatString: .jpg"
+  fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
+  _prefix: img
+  encodeToVideo: 1
+  focalDistance: 24.7
+  useAutoFocus: 0
+  captureOnPlay: 1
+  useHalfResolution: 0
+  renderFromFrame: 0
+  useCustomResolution: 0
+  letterbox: 0
+  noise: 0
+  precount: 0
+  superSample: 1
+  filmResponseType: 9
+  oldFilmResponseType: 9
+  videoCompression: 0
+  filmResponseTex: {fileID: 11700000, guid: 8d20aae4e1111314bb38b7d7bcef9b9b, type: 2}
+  exposure: 1
+  hFieldOfView: 25.487467
+  focalmm: 77.37819
+  useAnimatorForMotionBlur: 0
+  filmResponseInfluence: 1
+  enumFilmSize: 0
+  OldEnumFilmSize: 0
+  updated: 0
+  maxInteractiveSteps: 30
+  minInteractiveSteps: 1
+  progressiveRendering: 0
+  roll1: 1
+  renderQualitySettings: 1
+  animationSettings: 1
+  exportOptions: 1
+  useBloom: 0
+  bloomRadius: 0
+  bloomIterations: 0
+  bloomIntensity: 0
+  focusTest: 0
+  depthTest: 0
+  customFilmSize: 0
+  focusSpeed: 0.05
+  tiltShift: 1
+  timelineSupport: 1
+  timeline: {fileID: 0}
+  skinnedMeshes: []
+  overrideEditor: 0
+  screenshot: 0
+  depthScale: 1
+  depthOffset: 0
+  cinemachineCut: 0
+  usingHDRP: 0
+  timestep: 0
+  useTimeCorrection: 0
+  noDynamicObjects: 0
+  interactiveTimer: 1
+  somethingChanged: 0
+  lensVignetteBlur: 0
+  bokehBlades: 6
+  bladeCurvature: 1
+  bokehFill: 0.8
+  rememberRenderSteps: 1
+  optimizedSpeedRendering: 1
+  bufferPass: {fileID: 0}
+  lightFieldRender: 0
+  customProjectionPlane: 0
+  captureAlpha: 0
+  projectionScreen: {fileID: 0}
+  estimateViewFrustum: 1
+  setNearClipPlane: 0
+  nearClipDistanceOffset: -0.01
+  lightfieldLayoutX: 4
+  lightfieldLayoutY: 4
+  rtDW: {fileID: 0}
+  whiteBallance: 0
+  filmTint: 0
+  batchGroups: 2
+  focusAssist: 0
+  zebras: 0
+  followObject: {fileID: 0}
+  captureAudio: 0
+  volume: 1
+  bufferSize: 0
+  numBuffers: 0
+  ambisonics: 0
+  achannels: 0
+  mute: 1
+  version: 2.0
+  saturation: 1
+--- !u!114 &1645018911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645018904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4b3cc9471c3f7746b383b6dd6256acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ea9d195e437cbe240bb1e1beb6ebd032, type: 2}
+  depthMat: {fileID: 2100000, guid: e244c4532e711cc449548982c2f075a0, type: 2}
+  rt: {fileID: 0}
+--- !u!111 &1645018912
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645018904}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 33b0c7c6aff0d9243878afa71c6ba81f, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 33b0c7c6aff0d9243878afa71c6ba81f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1814073536
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,7 +6216,7 @@ MonoBehaviour:
     injectionParameters:
       enable: 1
       strength: 1
-      useNoiseMask: 1
+      useNoiseMask: 0
       useNoiseMaskLevels: 1
       noiseMaskLevelParameters:
         levelLowThreshold: 0
@@ -6227,7 +6394,7 @@ MonoBehaviour:
   densityInjection:
     enable: 1
     strength: 3
-    useNoiseMask: 1
+    useNoiseMask: 0
     useNoiseMaskLevels: 1
     noiseMaskLevelParameters:
       levelLowThreshold: 0
@@ -6257,7 +6424,7 @@ MonoBehaviour:
   scatteringInjection:
     enable: 1
     strength: 0.15
-    useNoiseMask: 1
+    useNoiseMask: 0
     useNoiseMaskLevels: 1
     noiseMaskLevelParameters:
       levelLowThreshold: 0
@@ -6320,7 +6487,7 @@ MonoBehaviour:
     injectionParameters:
       enable: 1
       strength: 1
-      useNoiseMask: 1
+      useNoiseMask: 0
       useNoiseMaskLevels: 1
       noiseMaskLevelParameters:
         levelLowThreshold: 0

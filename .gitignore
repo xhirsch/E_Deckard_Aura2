@@ -12,7 +12,19 @@
 
 #ignore BOTD Assets
 BOTD*/
+
+#ignore Deckard Video Folder
 [Cc]apture/
+
+# ignore Brutalist Assets
+KB3D*/
+
+# ignore Trash / Dump Assets
+Dump*/
+Garbage pack*/
+
+#ignore Old TV Monitor Asset
+Pekdata*/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta

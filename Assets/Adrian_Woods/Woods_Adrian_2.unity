@@ -897,6 +897,7 @@ GameObject:
   - component: {fileID: 765468521}
   - component: {fileID: 765468522}
   - component: {fileID: 765468523}
+  - component: {fileID: 765468524}
   m_Layer: 0
   m_Name: Aura Point Light
   m_TagString: Untagged
@@ -912,7 +913,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765468517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: -0.619, y: 2.004, z: -0.566}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 458112971}
@@ -964,7 +965,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 12.339873
+  m_Range: 5.87
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1055,7 +1056,7 @@ Animator:
   m_GameObject: {fileID: 765468517}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c4a5586e52224554f9fdbf264cc1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1064,6 +1065,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &765468524
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765468517}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 1871c602563bad44da5afa270ea4ee35, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1224939469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,7 +1147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1314267963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173,7 +1191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314267962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -10}
+  m_LocalPosition: {x: -0.619, y: 2.004, z: -10.566}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 419697549}
@@ -1345,7 +1363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645018904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -10}
+  m_LocalPosition: {x: -0.619, y: 2.004, z: -15.339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1439,7 +1457,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645018904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -1492,7 +1510,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 5
+  focusDistance: 15.42
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1522,13 +1540,13 @@ MonoBehaviour:
   renderFromFrame: 0
   useCustomResolution: 0
   letterbox: 0
-  noise: 0.09
+  noise: 0.034
   precount: 0
   superSample: 1
-  filmResponseType: 0
-  oldFilmResponseType: 0
+  filmResponseType: 10
+  oldFilmResponseType: 10
   videoCompression: 0
-  filmResponseTex: {fileID: 11700000, guid: d54551e395b1e844a811d6e2ed0acf30, type: 2}
+  filmResponseTex: {fileID: 11700000, guid: 81fc6d79243b09b459232b9cec81fa5e, type: 2}
   exposure: 1
   hFieldOfView: 25.487467
   focalmm: 77.37819
@@ -1541,7 +1559,7 @@ MonoBehaviour:
   minInteractiveSteps: 1
   progressiveRendering: 0
   roll1: 1
-  renderQualitySettings: 0
+  renderQualitySettings: 1
   animationSettings: 1
   exportOptions: 1
   useBloom: 0
@@ -1587,7 +1605,7 @@ MonoBehaviour:
   whiteBallance: 0
   filmTint: 0
   batchGroups: 2
-  focusAssist: 0
+  focusAssist: 1
   zebras: 0
   followObject: {fileID: 0}
   captureAudio: 0
@@ -6381,7 +6399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1830122346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6389,7 +6407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830122345}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b142c931e4f39c429a012dc68ba0659, type: 3}
   m_Name: 
@@ -6431,7 +6449,7 @@ MonoBehaviour:
       rotation: {x: 0, y: 0, z: 0}
       scale: {x: 1, y: 1, z: 1}
   noiseMask:
-    enable: 1
+    enable: 0
     speed: 0.125
     transform:
       space: 0
@@ -6703,7 +6721,7 @@ MonoBehaviour:
       scale: {x: 1, y: 1, z: 1}
   noiseMask:
     enable: 1
-    speed: 0.125
+    speed: 0.02
     transform:
       space: 0
       position: {x: 0, y: 0, z: 0}
@@ -6834,7 +6852,7 @@ MonoBehaviour:
         saturateOutputValues: 0
     color: {r: 0.999999, g: 0.9952855, b: 0.97332203, a: 1}
   ambientInjection:
-    enable: 0
+    enable: 1
     strength: 1
     useNoiseMask: 1
     useNoiseMaskLevels: 1

@@ -44,9 +44,9 @@ Material:
     - _CMidpoint: 0.5
     - _CTint: 0
     - _ColorOffset: 0.82
-    - _DeckardDepthTestEdges: 0
+    - _DeckardDepthTestEdges: 1
     - _Float0: 0
-    - _NoiseD_A_Amount: 0.09
+    - _NoiseD_A_Amount: 0.034
     - _PreFinalPAss: 1
     - _Sharpen: 0
     - _SharpenRadius: 1

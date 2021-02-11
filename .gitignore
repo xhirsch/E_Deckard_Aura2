@@ -26,6 +26,9 @@ Garbage pack*/
 #ignore Old TV Monitor Asset
 Pekdata*/
 
+#ignore Audio Folder
+Audio*/
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 

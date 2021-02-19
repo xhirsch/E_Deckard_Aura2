@@ -448,8 +448,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: -0.0000091611455, z: 0.000009002632, w: 0.7132505}
-  m_LocalPosition: {x: 0, y: 11, z: -134.9465}
+  m_LocalRotation: {x: 0.70090926, y: -0.00000040086599, z: 0.0000003939299, w: 0.71325046}
+  m_LocalPosition: {x: 0, y: 15.327299, z: -55.669296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -1535,8 +1535,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.7071095}
-  m_LocalPosition: {x: 0, y: 3, z: -230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.817177, z: -23.200699}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 20.218111
+  focusDistance: 41.701286
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   fullPath: C:\Users\x_h\Documents\Unity\02_Experiments\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 10.701677
+  focalDistance: 42.023773
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -2174,8 +2174,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -2.9007958e-15, y: -0.70710415, z: -2.9007738e-15, w: 0.7071095}
-  m_LocalPosition: {x: 10.000002, y: 3, z: -134.94658}
+  m_LocalRotation: {x: -0.00004199099, y: -0.70774406, z: -0.000042066786, w: 0.706469}
+  m_LocalPosition: {x: 9.999992, y: 7.3267045, z: -55.66029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -2532,6 +2532,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc901587c187ef543b3750bab11b5b6a, type: 3}
+--- !u!108 &995318601 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 948850384221615504, guid: 8f67ee8b6ea32e647bcbf9530c335ce2, type: 3}
+  m_PrefabInstance: {fileID: 1675064694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1062770788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4489417197587302, guid: dc901587c187ef543b3750bab11b5b6a, type: 3}
@@ -2915,6 +2920,7 @@ PlayableDirector:
     - e56f3b4529f10f24eb992309b3764821: {fileID: 768171958}
     - 4fea2aa796d1f044b9e252de1ccbd6c5: {fileID: 111771408}
     - a9c021c1ce6cbf34eb2b4907eb718ea4: {fileID: 111771408}
+    - e089eeac8dfad504088fdf313ddc86b1: {fileID: 995318601}
     - 801d2405293a7da4b8be77a9bf578d8e: {fileID: 1279106792}
     - 31e5594d6812f324ebcbbdf2bd7d846c: {fileID: 0}
     - bcde1747f8a63ec44b0ddcebb554b276: {fileID: 768171958}
@@ -4769,7 +4775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -144.9465}
+  m_LocalPosition: {x: 0, y: 7.327299, z: -65.6693}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

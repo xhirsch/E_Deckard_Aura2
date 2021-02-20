@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 111771408}
   - component: {fileID: 111771410}
   m_Layer: 0
-  m_Name: CM vcam drone wald high
+  m_Name: CM vcam drone wald
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,8 +449,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: -0.0000014450475, z: 0.0000014200442, w: 0.71325046}
-  m_LocalPosition: {x: 0, y: 53, z: -186.45467}
+  m_LocalRotation: {x: 0.6987856, y: 0.00000017338019, z: -0.00000016936983, w: 0.7153312}
+  m_LocalPosition: {x: 0, y: 53, z: -55.418114}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -1555,8 +1555,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.71325046}
-  m_LocalPosition: {x: 0, y: 3, z: -232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.99920684}
+  m_LocalPosition: {x: 0, y: 3, z: -189.22043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 44.760834
+  focusDistance: 44.368557
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1677,7 +1677,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 52.70807
+  focalDistance: 51.053764
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -1692,8 +1692,8 @@ MonoBehaviour:
   videoCompression: 0
   filmResponseTex: {fileID: 11700000, guid: d54551e395b1e844a811d6e2ed0acf30, type: 2}
   exposure: 1
-  hFieldOfView: 62.72661
-  focalmm: 28.710936
+  hFieldOfView: 77.78782
+  focalmm: 21.692707
   useAnimatorForMotionBlur: 0
   filmResponseInfluence: 1
   enumFilmSize: 2
@@ -2194,8 +2194,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: 1e-45, y: -0.70710504, z: 1e-45, w: 0.7071086}
-  m_LocalPosition: {x: 12.000002, y: 3, z: -186.45473}
+  m_LocalRotation: {x: 0.000000017674399, y: -0.58032835, z: 0.000000012594759, w: 0.8143826}
+  m_LocalPosition: {x: 11.727325, y: 3.0000002, z: -57.35286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -3004,6 +3004,7 @@ PlayableDirector:
     - 3e8168fecc8263946a059a86fce7019f: {fileID: 1930134448}
     - 475bb576ddec005438994f01aa69d3b7: {fileID: 1930134448}
     - 7fad323deb42aec4085f90fed534951a: {fileID: 1930134448}
+    - 482b564b5b743c340b92a27ba32d2032: {fileID: 111771408}
     - 9127385e0ff0da54ea71089bf367665a: {fileID: 1930134448}
     - cd6da2a4887a39b4f96ca76054dee001: {fileID: 0}
     - ed95aa484c33459409c9ef8d0ff8a1da: {fileID: 1930134448}
@@ -3243,7 +3244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279106791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3632108, y: 3.6299546, z: -96.79685}
+  m_LocalPosition: {x: -0.3632108, y: 3.6299546, z: -101.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 711784650}
@@ -4064,7 +4065,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 12
+  m_CameraDistance: 20
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -4567,9 +4568,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1888223268}
   - component: {fileID: 1888223271}
-  - component: {fileID: 1888223270}
   - component: {fileID: 1888223269}
   - component: {fileID: 1888223272}
+  - component: {fileID: 1888223270}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -4873,7 +4874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -198.45467}
+  m_LocalPosition: {x: 0, y: 3, z: -76.121025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

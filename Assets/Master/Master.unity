@@ -448,8 +448,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: 0.00000015829238, z: -0.00000015555347, w: 0.7132505}
-  m_LocalPosition: {x: 0, y: 23, z: 21.600006}
+  m_LocalRotation: {x: 0.7003854, y: -0.0000021611252, z: 0.000002120615, w: 0.7137649}
+  m_LocalPosition: {x: 0, y: 23, z: -168.37651}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -1535,7 +1535,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.72020465}
   m_LocalPosition: {x: 0, y: 3, z: -232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 12.803816
+  focusDistance: 20.003387
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 22.90485
+  focalDistance: 22.717316
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -2174,8 +2174,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: 0.0005772919, y: -0.69967616, z: 0.0005653465, w: 0.7144598}
-  m_LocalPosition: {x: 9.998903, y: 3.00808, z: 21.495483}
+  m_LocalRotation: {x: 1.0105713e-15, y: -0.6761132, z: 9.152276e-16, w: 0.7367978}
+  m_LocalPosition: {x: 9.981851, y: 3, z: -168.80229}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -4640,8 +4640,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NoiseProfile: {fileID: 11400000, guid: 8608ec81ee27a15488d33f9dad239e91, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 1
-  m_FrequencyGain: 1
+  m_AmplitudeGain: 0.4
+  m_FrequencyGain: 0.4
   mNoiseOffsets: {x: 821.0604, y: 325.8514, z: 341.4831}
 --- !u!1001 &1889466696
 PrefabInstance:
@@ -4847,7 +4847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 9.600006}
+  m_LocalPosition: {x: 0, y: 3, z: -180.41246}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

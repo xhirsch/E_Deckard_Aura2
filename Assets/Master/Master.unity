@@ -399,8 +399,9 @@ GameObject:
   m_Component:
   - component: {fileID: 111771409}
   - component: {fileID: 111771408}
+  - component: {fileID: 111771410}
   m_Layer: 0
-  m_Name: CM vcam drone wald
+  m_Name: CM vcam drone wald high
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -448,14 +449,33 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: 0.0000012130273, z: -0.0000011920387, w: 0.7132505}
-  m_LocalPosition: {x: 0, y: 23, z: -193.45453}
+  m_LocalRotation: {x: 0.70090926, y: -0.0000014450475, z: 0.0000014200442, w: 0.71325046}
+  m_LocalPosition: {x: 0, y: 53, z: -186.45467}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &111771410
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111771407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &155724516
 GameObject:
   m_ObjectHideFlags: 3
@@ -1510,7 +1530,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 60.000004
+  field of view: 37.84929
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1535,7 +1555,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.72561663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.71325046}
   m_LocalPosition: {x: 0, y: 3, z: -232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1634,7 +1654,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 12.008565
+  focusDistance: 44.760834
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1657,7 +1677,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 3.2195122
+  focalDistance: 52.70807
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -1708,7 +1728,7 @@ MonoBehaviour:
   useTimeCorrection: 0
   noDynamicObjects: 0
   interactiveTimer: 1
-  somethingChanged: 1
+  somethingChanged: 0
   lensVignetteBlur: 0
   bokehBlades: 6
   bladeCurvature: 1
@@ -2174,8 +2194,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -0.00000000895926, y: -0.6880992, z: -0.000000008496029, w: 0.72561663}
-  m_LocalPosition: {x: 11.991153, y: 3, z: -193.71336}
+  m_LocalRotation: {x: 1e-45, y: -0.70710504, z: 1e-45, w: 0.7071086}
+  m_LocalPosition: {x: 12.000002, y: 3, z: -186.45473}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -2908,6 +2928,8 @@ PlayableDirector:
     value: {fileID: 559014729}
   - key: {fileID: -2179435997119800030, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 559014729}
+  - key: {fileID: 931447245721553361, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
+    value: {fileID: 111771410}
   m_ExposedReferences:
     m_References:
     - 971e90bf5b6bb0c4a8df0d17fd203b69: {fileID: 1930134448}
@@ -2959,6 +2981,7 @@ PlayableDirector:
     - bbf23239058b4154581193bc4a0906bd: {fileID: 1930134448}
     - 7bd29ba3fc2f7884e8c9f7f90c244230: {fileID: 768171958}
     - 81226597896686d4b8cc68b74045f711: {fileID: 1930134448}
+    - 5c7d140bb0e61f34ebac0f282b855147: {fileID: 111771408}
     - 9c4988e000217c540bf6916969306b55: {fileID: 1930134448}
     - 7a0e808ef3d0d484d86f04e61253f863: {fileID: 1930134448}
     - 7dd2c6f9055d5e14aba1d8a92d9fad50: {fileID: 111771408}
@@ -4581,7 +4604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 20, z: 0}
+  m_FollowOffset: {x: 0, y: 50, z: 0}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -4850,7 +4873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -205.40778}
+  m_LocalPosition: {x: 0, y: 3, z: -198.45467}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

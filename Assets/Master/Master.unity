@@ -427,7 +427,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 1524112460}
   m_Follow: {fileID: 1524112460}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 37.84929
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 100
@@ -448,13 +448,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: -0.00000017553873, z: 0.00000017250142, w: 0.7132505}
-  m_LocalPosition: {x: 0, y: 11, z: -86}
+  m_LocalRotation: {x: 0.70090926, y: 0.00000015829238, z: -0.00000015555347, w: 0.7132505}
+  m_LocalPosition: {x: 0, y: 23, z: 21.600006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155724516
 GameObject:
@@ -1501,7 +1501,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 34.97131
+  m_FocalLength: 35
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 12.302347
+  focusDistance: 12.803816
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 40.64896
+  focalDistance: 22.90485
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -1672,8 +1672,8 @@ MonoBehaviour:
   videoCompression: 0
   filmResponseTex: {fileID: 11700000, guid: d54551e395b1e844a811d6e2ed0acf30, type: 2}
   exposure: 1
-  hFieldOfView: 62.768375
-  focalmm: 28.687403
+  hFieldOfView: 62.72661
+  focalmm: 28.710936
   useAnimatorForMotionBlur: 0
   filmResponseInfluence: 1
   enumFilmSize: 2
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   useTimeCorrection: 0
   noDynamicObjects: 0
   interactiveTimer: 1
-  somethingChanged: 0
+  somethingChanged: 1
   lensVignetteBlur: 0
   bokehBlades: 6
   bladeCurvature: 1
@@ -2174,13 +2174,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -1.2901586e-11, y: -0.99904597, z: -2.9512912e-10, w: 0.043671034}
-  m_LocalPosition: {x: 5.436294, y: 3, z: -82.019066}
+  m_LocalRotation: {x: 0.0005772919, y: -0.69967616, z: 0.0005653465, w: 0.7144598}
+  m_LocalPosition: {x: 9.998903, y: 3.00808, z: 21.495483}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &781781972
 PrefabInstance:
@@ -2905,7 +2905,7 @@ PlayableDirector:
   - key: {fileID: -5804562128651308728, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 559014729}
   - key: {fileID: -5910912334121182832, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 559014729}
   m_ExposedReferences:
     m_References:
     - 971e90bf5b6bb0c4a8df0d17fd203b69: {fileID: 1930134448}
@@ -2922,6 +2922,7 @@ PlayableDirector:
     - ccb4c9cc7f64ab9428c12c7bb4275f45: {fileID: 1279106792}
     - 47b1313d0358f404d964fcd8c9df465b: {fileID: 1930134448}
     - 8f393b17d13e56d49a0f3b18b46bdf8f: {fileID: 1930134448}
+    - a6a88103dca80584e8b3e82b33bbc701: {fileID: 111771408}
     - e56f3b4529f10f24eb992309b3764821: {fileID: 768171958}
     - 24f02f23b016ca14dbd61391c1d99293: {fileID: 1930134448}
     - 46fce5fa9c6efd540ae6bb61d814ab07: {fileID: 1930134448}
@@ -3194,7 +3195,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 37.84929
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 100
@@ -3221,7 +3222,7 @@ Transform:
   m_Children:
   - {fileID: 711784650}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1295610973
 PrefabInstance:
@@ -4542,6 +4543,7 @@ GameObject:
   - component: {fileID: 1888223271}
   - component: {fileID: 1888223270}
   - component: {fileID: 1888223269}
+  - component: {fileID: 1888223272}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -4576,7 +4578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 8, z: 0}
+  m_FollowOffset: {x: 0, y: 20, z: 0}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -4624,6 +4626,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1888223272
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888223267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 8608ec81ee27a15488d33f9dad239e91, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 1
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 821.0604, y: 325.8514, z: 341.4831}
 --- !u!1001 &1889466696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4828,7 +4847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -97}
+  m_LocalPosition: {x: 0, y: 3, z: 9.600006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

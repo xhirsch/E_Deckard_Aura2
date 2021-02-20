@@ -448,8 +448,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.7003854, y: -0.0000021611252, z: 0.000002120615, w: 0.7137649}
-  m_LocalPosition: {x: 0, y: 23, z: -168.37651}
+  m_LocalRotation: {x: 0.70090926, y: 0.0000012130273, z: -0.0000011920387, w: 0.7132505}
+  m_LocalPosition: {x: 0, y: 23, z: -193.45453}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 5, y: 0, z: 0}
+  m_TrackedObjectOffset: {x: 7, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -1510,7 +1510,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 37.84929
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1535,7 +1535,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.72020465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.72561663}
   m_LocalPosition: {x: 0, y: 3, z: -232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 20.003387
+  focusDistance: 12.008565
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 22.717316
+  focalDistance: 3.2195122
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -2153,9 +2153,9 @@ MonoBehaviour:
   m_LookAt: {fileID: 1524112460}
   m_Follow: {fileID: 1524112460}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 37.84929
     OrthographicSize: 5
-    NearClipPlane: 0.01
+    NearClipPlane: 0.3
     FarClipPlane: 100
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -2174,8 +2174,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: 1.0105713e-15, y: -0.6761132, z: 9.152276e-16, w: 0.7367978}
-  m_LocalPosition: {x: 9.981851, y: 3, z: -168.80229}
+  m_LocalRotation: {x: -0.00000000895926, y: -0.6880992, z: -0.000000008496029, w: 0.72561663}
+  m_LocalPosition: {x: 11.991153, y: 3, z: -193.71336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -2906,6 +2906,8 @@ PlayableDirector:
     value: {fileID: 559014729}
   - key: {fileID: -5910912334121182832, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 559014729}
+  - key: {fileID: -2179435997119800030, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
+    value: {fileID: 559014729}
   m_ExposedReferences:
     m_References:
     - 971e90bf5b6bb0c4a8df0d17fd203b69: {fileID: 1930134448}
@@ -2955,6 +2957,7 @@ PlayableDirector:
     - 7978b62fff3ee954994cd2669ecb73aa: {fileID: 111771408}
     - fed13150ed9be474782bddf5fba01cef: {fileID: 0}
     - bbf23239058b4154581193bc4a0906bd: {fileID: 1930134448}
+    - 7bd29ba3fc2f7884e8c9f7f90c244230: {fileID: 768171958}
     - 81226597896686d4b8cc68b74045f711: {fileID: 1930134448}
     - 9c4988e000217c540bf6916969306b55: {fileID: 1930134448}
     - 7a0e808ef3d0d484d86f04e61253f863: {fileID: 1930134448}
@@ -4847,7 +4850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -180.41246}
+  m_LocalPosition: {x: 0, y: 3, z: -205.40778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

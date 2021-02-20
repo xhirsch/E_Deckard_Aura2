@@ -448,8 +448,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: -0.00000040086599, z: 0.0000003939299, w: 0.71325046}
-  m_LocalPosition: {x: 0, y: 15.327299, z: -55.669296}
+  m_LocalRotation: {x: 0.70090926, y: -0.00000017553873, z: 0.00000017250142, w: 0.7132505}
+  m_LocalPosition: {x: 0, y: 11, z: -86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -1496,12 +1496,12 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 2
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 34.97131
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1510,7 +1510,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 60
+  field of view: 37.84929
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1536,7 +1536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.817177, z: -23.200699}
+  m_LocalPosition: {x: 0, y: 3, z: -232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1624,7 +1624,7 @@ MonoBehaviour:
   editorQuality: 8
   finalSteps: 8
   shutterAngle: 8.6
-  fStop: 1.8
+  fStop: 0.6
   anamorphicRatio: 1
   focusTransform: {fileID: 1524112460}
   rt: {fileID: 0}
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 41.701286
+  focusDistance: 12.302347
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -1642,11 +1642,11 @@ MonoBehaviour:
   BufferQuiltPassMat: {fileID: 2100000, guid: 9f22702c329cede43b434c11d691a1ae, type: 2}
   multipassDepthMat: {fileID: 2100000, guid: b2bd2fbe6b466a142b4deffed215c344, type: 2}
   FPS: 25
-  NumberOfFramesToRender: 25
+  NumberOfFramesToRender: 1700
   StartFrame: 1
   RenderInfo: 
   Folder: Capture
-  Mp4Bitrate: 22000
+  Mp4Bitrate: 8000
   resolution: 1920
   resolutionH: 1080
   sequenceLength: 
@@ -1654,10 +1654,10 @@ MonoBehaviour:
   SharpDetectType: 0
   RenderType: 0
   formatString: .jpg"
-  fullPath: C:\Users\x_h\Documents\Unity\02_Experiments\E_Deckard_Aura2\Capture\
+  fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 42.023773
+  focalDistance: 40.64896
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -1672,8 +1672,8 @@ MonoBehaviour:
   videoCompression: 0
   filmResponseTex: {fileID: 11700000, guid: d54551e395b1e844a811d6e2ed0acf30, type: 2}
   exposure: 1
-  hFieldOfView: 107.28483
-  focalmm: 12.882128
+  hFieldOfView: 62.768375
+  focalmm: 28.687403
   useAnimatorForMotionBlur: 0
   filmResponseInfluence: 1
   enumFilmSize: 2
@@ -2174,8 +2174,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -0.00004199099, y: -0.70774406, z: -0.000042066786, w: 0.706469}
-  m_LocalPosition: {x: 9.999992, y: 7.3267045, z: -55.66029}
+  m_LocalRotation: {x: -1.2901586e-11, y: -0.99904597, z: -2.9512912e-10, w: 0.043671034}
+  m_LocalPosition: {x: 5.436294, y: 3, z: -82.019066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -2900,47 +2900,100 @@ PlayableDirector:
     value: {fileID: 1524112457}
   - key: {fileID: -3991027139810921438, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 0}
-  - key: {fileID: -391097997835941976, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
-    value: {fileID: 559014729}
   - key: {fileID: -726515115486596189, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 1169331662}
-  - key: {fileID: -5398643276172867759, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
+  - key: {fileID: -5804562128651308728, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 559014729}
-  - key: {fileID: 1097636545789934250, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
-    value: {fileID: 559014729}
-  - key: {fileID: -7139535836654810592, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
-    value: {fileID: 559014729}
+  - key: {fileID: -5910912334121182832, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
+    - 971e90bf5b6bb0c4a8df0d17fd203b69: {fileID: 1930134448}
     - be034b3f05a4a4247b6cae6be82b01e0: {fileID: 1930134448}
+    - 4318779d07d3bdb46961e55e3d94d145: {fileID: 1930134448}
+    - 7288b1383f6ca734ab2becae992a7251: {fileID: 1930134448}
+    - e2ef529d7c150eb4f99e8868e1f1772f: {fileID: 1930134448}
+    - d4e00dc29c0800b458c7073e4a5123fb: {fileID: 1279106792}
+    - a04c2cb3d3f6d1c49aa098f85d014bd4: {fileID: 1930134448}
     - a8b7a97197b0f71419cfc160f7a42d05: {fileID: 1930134448}
+    - a1e72b005eafca84dbdb03c76aaa2c0b: {fileID: 1930134448}
+    - 87636f0f2ae0b3f48ba23fa244945452: {fileID: 1930134448}
+    - ef68fd548cb203c4db8e4fb46c689935: {fileID: 1930134448}
     - ccb4c9cc7f64ab9428c12c7bb4275f45: {fileID: 1279106792}
     - 47b1313d0358f404d964fcd8c9df465b: {fileID: 1930134448}
     - 8f393b17d13e56d49a0f3b18b46bdf8f: {fileID: 1930134448}
     - e56f3b4529f10f24eb992309b3764821: {fileID: 768171958}
+    - 24f02f23b016ca14dbd61391c1d99293: {fileID: 1930134448}
+    - 46fce5fa9c6efd540ae6bb61d814ab07: {fileID: 1930134448}
+    - 2db52a220640aa54798b46d3bca5168e: {fileID: 1930134448}
+    - 1c8200f514cde854c9cb4609e636d965: {fileID: 1930134448}
     - 4fea2aa796d1f044b9e252de1ccbd6c5: {fileID: 111771408}
+    - 50f3f13e5fa5c1c4db0a1c67ba447824: {fileID: 1930134448}
+    - 3308a5ba309f2c74b991d76981ec628a: {fileID: 1930134448}
+    - 3c714dbde8116d14394644717c530e24: {fileID: 1930134448}
+    - a284b30944d63064186555ef6452c9df: {fileID: 1930134448}
     - a9c021c1ce6cbf34eb2b4907eb718ea4: {fileID: 111771408}
     - e089eeac8dfad504088fdf313ddc86b1: {fileID: 995318601}
+    - e60a8d61ecf8e204d9ed6fcd868ee41d: {fileID: 1930134448}
+    - 5c1cb20c0d2188842b1c4c1200cc3ebc: {fileID: 1930134448}
     - 801d2405293a7da4b8be77a9bf578d8e: {fileID: 1279106792}
+    - 3a940ca2a4b57924ab1acfebbe3c655a: {fileID: 1930134448}
+    - 1ba00ca7b286b74429a6024f1c5e11df: {fileID: 1930134448}
+    - 051186b1660489647b46c47b72e7745f: {fileID: 1930134448}
+    - 2a25283d2eb18db41a39bac13d3ea32b: {fileID: 1930134448}
+    - 6a2a76d0220c88a4481d73f36366724c: {fileID: 1930134448}
     - 31e5594d6812f324ebcbbdf2bd7d846c: {fileID: 0}
+    - 96535f2a7f16d854399628264a491505: {fileID: 1930134448}
+    - 24ca9313c90a3c0428ea5a1cde3edc64: {fileID: 1930134448}
+    - f02df129cb8669b42b13148d86d8a0ad: {fileID: 1930134448}
+    - 39be0f9e8fe743347bb80cbc2b88c9e2: {fileID: 1930134448}
     - bcde1747f8a63ec44b0ddcebb554b276: {fileID: 768171958}
+    - ec2ecb8e79e108246a17f589d9968a04: {fileID: 1930134448}
+    - 5c679718f6a5ef94e9c31735a80f3b3b: {fileID: 1930134448}
     - 0855a355e15fa9e4291771c05a41aa2b: {fileID: 1930134448}
     - 7978b62fff3ee954994cd2669ecb73aa: {fileID: 111771408}
     - fed13150ed9be474782bddf5fba01cef: {fileID: 0}
     - bbf23239058b4154581193bc4a0906bd: {fileID: 1930134448}
+    - 81226597896686d4b8cc68b74045f711: {fileID: 1930134448}
+    - 9c4988e000217c540bf6916969306b55: {fileID: 1930134448}
+    - 7a0e808ef3d0d484d86f04e61253f863: {fileID: 1930134448}
     - 7dd2c6f9055d5e14aba1d8a92d9fad50: {fileID: 111771408}
     - 4a183c469042e5143ba8a59e2d2f5807: {fileID: 768171958}
     - af35f047bb486aa47bc6d7184a24d333: {fileID: 768171958}
     - f9b751eaa476eff41b24e8f218442f2d: {fileID: 1279106792}
+    - 7624fd7378f94f54aa08cb23b5562c66: {fileID: 1930134448}
+    - a976e2b0d7e63af46836b3aea434043f: {fileID: 1930134448}
     - 7541f90553ac0924bb475080914923ce: {fileID: 1930134448}
+    - 75686a6b4bea9a64b809902a6f29bd64: {fileID: 1930134448}
+    - 6361160c69e83634d8f45c3436948c7e: {fileID: 1930134448}
     - 412fbafecca68e94ba9a9740a134bd0c: {fileID: 111771408}
+    - 06da43ad3a433a647b47f6a7299048c4: {fileID: 1930134448}
+    - bc73c7c4fd901f6419a08b63696638fb: {fileID: 1930134448}
+    - 60fc76ac06b25914abe495fa4256bf51: {fileID: 1930134448}
+    - bce2a82bd61a52f45992692f67e13ff8: {fileID: 1930134448}
+    - e101f4c8b66a874419bd3bb92b423063: {fileID: 1930134448}
+    - 1013dfcd62136d247ac4d1d5b83295e1: {fileID: 1930134448}
     - 1e913dee2c1eaa64694a376f1eedd9a3: {fileID: 1279106792}
+    - 3e8168fecc8263946a059a86fce7019f: {fileID: 1930134448}
+    - 475bb576ddec005438994f01aa69d3b7: {fileID: 1930134448}
+    - 7fad323deb42aec4085f90fed534951a: {fileID: 1930134448}
+    - 9127385e0ff0da54ea71089bf367665a: {fileID: 1930134448}
     - cd6da2a4887a39b4f96ca76054dee001: {fileID: 0}
+    - ed95aa484c33459409c9ef8d0ff8a1da: {fileID: 1930134448}
     - 8994ef73a1a5b8747a6bee71c74be56f: {fileID: 1279106792}
+    - 9c1be7b591ee96f48880c9040de367b5: {fileID: 1930134448}
     - 56784d6a30bcaa7409f39efa9e21a4d4: {fileID: 1930134448}
+    - 5b855164f73acf149933dc90e4937953: {fileID: 1930134448}
+    - 5021e256a0ee6db4b8703f3dd6a87164: {fileID: 1930134448}
+    - b5152f892bee7354da6b8715c27c3077: {fileID: 1930134448}
     - 177893e5077a4d740804af57ab5b4300: {fileID: 1930134448}
+    - cb56bfa317202a647af3947044b74fe9: {fileID: 1930134448}
     - 671b72f0fc25de84492722e779e9f504: {fileID: 1930134448}
     - 5f668ccc6128260489a10988f4e9054d: {fileID: 1930134448}
+    - cc4ad4739a1acb44a9ccce223baa67ce: {fileID: 1930134448}
+    - 9b0a88e0d7104e545a1b908af87ffd47: {fileID: 1930134448}
+    - 4421e323e3bff604c90a7f08e4d3e080: {fileID: 1930134448}
+    - c47ebf4a2cd5363438eeb0b77f29547c: {fileID: 1930134448}
 --- !u!4 &1169331664
 Transform:
   m_ObjectHideFlags: 0
@@ -3984,7 +4037,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 10
+  m_CameraDistance: 12
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -4753,7 +4806,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 1524112460}
   m_Follow: {fileID: 1524112460}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 37.84929
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 100
@@ -4775,7 +4828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.327299, z: -65.6693}
+  m_LocalPosition: {x: 0, y: 3, z: -97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

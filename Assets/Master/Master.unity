@@ -490,7 +490,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132506}
+  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132505}
   m_LocalPosition: {x: 0, y: 23, z: 29.979996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2286,8 +2286,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0.6984153, y: 0, z: 0, w: 0.9998873}
-  m_LocalPosition: {x: 0, y: 53, z: 29.979996}
+  m_LocalRotation: {x: 0.4977944, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 53, z: -220}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2385,7 +2385,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 20.000008
+  focusDistance: 11.39496
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -2408,7 +2408,7 @@ MonoBehaviour:
   fullPath: C:\Users\as\Desktop\Projects\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 99.549355
+  focalDistance: 98.87451
   useAutoFocus: 0
   captureOnPlay: 0
   useHalfResolution: 0
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   useTimeCorrection: 0
   noDynamicObjects: 0
   interactiveTimer: 1
-  somethingChanged: 1
+  somethingChanged: 0
   lensVignetteBlur: 0
   bokehBlades: 6
   bladeCurvature: 1
@@ -3421,7 +3421,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: 2.9471071e-16, y: -0.707107, z: 2.9471087e-16, w: 0.70710665}
+  m_LocalRotation: {x: -6.948287e-16, y: -0.707107, z: -6.9482896e-16, w: 0.70710665}
   m_LocalPosition: {x: 18.000004, y: 3, z: 29.980005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4812,6 +4812,8 @@ PlayableDirector:
     value: {fileID: 2097305957}
   - key: {fileID: -81562091938144525, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
     value: {fileID: 1169331662}
+  - key: {fileID: -3868005338982814796, guid: 224b120909d17dd43a678ecbd9980c2c, type: 2}
+    value: {fileID: 1930134450}
   m_ExposedReferences:
     m_References:
     - 971e90bf5b6bb0c4a8df0d17fd203b69: {fileID: 1930134448}
@@ -7986,7 +7988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 9.979995}
+  m_LocalPosition: {x: 0, y: 3, z: 9.979996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}
@@ -8041,7 +8043,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965154633}
-  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132506}
+  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132505}
   m_LocalPosition: {x: 0, y: 50, z: -9.980003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

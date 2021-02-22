@@ -143,17 +143,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 70.84
-        value: {x: 0, y: 0, z: 153.29543}
-        inSlope: {x: 0, y: 0, z: 8.167612}
-        outSlope: {x: 0, y: 0, z: 8.167612}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 74
-        value: {x: 0, y: 6, z: 179.10512}
+        time: 71
+        value: {x: 0, y: 6, z: 154.60228}
         inSlope: {x: 0, y: 0, z: 8.167613}
         outSlope: {x: 0, y: 0, z: 8.167613}
         tangentMode: 0
@@ -253,7 +244,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 70.84
+        time: 68.6
         value: 0
         inSlope: 0
         outSlope: 0
@@ -262,7 +253,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 74
+        time: 71
         value: 6
         inSlope: 0
         outSlope: 0
@@ -2951,6 +2942,1026 @@ MonoBehaviour:
       fieldName: m_Intensity
       vector0: {x: 0, y: 0, z: 0, w: 0}
       vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 4
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: e2c79e7ddc8535b4494120c2f8b801ce
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 4
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: c51dad9e789dbe340acdac72ca0ebbd5
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 4
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 3ccf04403057f0a4ab14e5c208cd606a
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 4
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: e8db458606ed6f149bf786a68ed5c5a0
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 4
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: aefd962bd3d376c418fdc292b3ce09a7
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: b9cc69d24d2469141a54f43a051265a9
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: d2cec1e06fc270448bf1b2b0d89ea7ed
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: fa02fcc9c5a187145ad39689bcc110aa
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 55d53ccb75494da4380dfba470267bbb
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 89f5f5057b5dfbd418c98882de710488
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 8
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 4d006e1784266bb4ba54e8f6dc1b40f8
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 8
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 2d4710cefcfd30a4da46fa81c3b9493a
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 8
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 9c43cff112b066248a13217be3f7c872
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 8
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 2f162213f97c7ad448bbd4cf043a6111
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 8
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: a907bb547d731184f89eb62854b46867
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 10
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 3afc54233b8a47e45b51bbe8bef59e9c
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 10
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 457bba9369c35214ca4f05d5b45517a0
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 10
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 89e9f764190838b45b14044459569778
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 10
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 88e95024bd0083c46b38d29ef21281a9
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 10
+        octave: 6
+      envelope:
+        attack: 0
+        decay: 1
+        sustain: 0.5
+        release: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: a107f6ab9a85b7447b0e9637ada12fad
+        defaultValue: {fileID: 0}
+      propertyName: intensity
+      fieldName: m_Intensity
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 4, y: 1, z: 1, w: 0}
 --- !u!114 &-49213682173859252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3332,7 +4343,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 25
-        value: 20
+        value: 60
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3397,7 +4408,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 25
-        value: 20
+        value: 60
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3732,9 +4743,18 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 80.92
-        value: {x: 0.159, y: 0, z: 0}
+        value: {x: 0, y: -36.05, z: 6.51}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 85.36
+        value: {x: 0.024843771, y: -5.89, z: 17.582977}
+        inSlope: {x: 0.010071792, y: 1.326576, z: 4.489042}
+        outSlope: {x: 0.010071792, y: 1.326576, z: 4.489042}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -3796,7 +4816,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 80.92
-        value: 0.159
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3824,9 +4844,18 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 80.92
-        value: 0
+        value: -36.05
         inSlope: 0
         outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 85.36
+        value: -5.89
+        inSlope: 1.326576
+        outSlope: 1.326576
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -3852,7 +4881,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 80.92
-        value: 0
+        value: 6.51
         inSlope: 0
         outSlope: 0
         tangentMode: 136

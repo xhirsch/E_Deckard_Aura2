@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 111771408}
   - component: {fileID: 111771410}
   m_Layer: 0
-  m_Name: CM vcam drone wald
+  m_Name: CAM_2 follow drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,13 +490,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
-  m_LocalRotation: {x: 0.70090914, y: 0.00040823914, z: -0.0004011754, w: 0.7132504}
-  m_LocalPosition: {x: 0, y: 53, z: -200.6899}
+  m_LocalRotation: {x: 0.70079356, y: 0.012959677, z: -0.0127354385, w: 0.71313274}
+  m_LocalPosition: {x: 0, y: 53, z: -212.96008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
   m_Father: {fileID: 371197987}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &111771410
 Animator:
@@ -1336,9 +1336,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1930134449}
-  - {fileID: 1279106793}
   - {fileID: 111771409}
   - {fileID: 768171959}
+  - {fileID: 1279106793}
   - {fileID: 1965154634}
   - {fileID: 550865546}
   m_Father: {fileID: 0}
@@ -2119,7 +2119,7 @@ GameObject:
   - component: {fileID: 550865545}
   - component: {fileID: 550865547}
   m_Layer: 0
-  m_Name: CM vcam building shot 1
+  m_Name: CAM_6 building shot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,7 +2340,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 23.999998
+  m_FocalLength: 35
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2374,8 +2374,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0.4956317, y: -0.50433004, z: 0.49560362, w: 0.5043586}
-  m_LocalPosition: {x: 0.01, y: 150, z: 44.66895}
+  m_LocalRotation: {x: 0.70090926, y: 0, z: 0, w: 0.9999039}
+  m_LocalPosition: {x: -0.159, y: 50, z: -87.357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2496,7 +2496,7 @@ MonoBehaviour:
   fullPath: C:\Users\x_h\Documents\Unity\02_Experiments\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 98.688416
+  focalDistance: 49.707623
   useAutoFocus: 0
   captureOnPlay: 1
   useHalfResolution: 0
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4b3cc9471c3f7746b383b6dd6256acc, type: 3}
   m_Name: 
@@ -3461,7 +3461,7 @@ GameObject:
   - component: {fileID: 768171959}
   - component: {fileID: 768171958}
   m_Layer: 0
-  m_Name: CM vcam side follow
+  m_Name: CAM_3 follow side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3509,14 +3509,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -0.000000027529177, y: -0.65359473, z: -0.0000000237736, w: 0.75684476}
-  m_LocalPosition: {x: 17.94669, y: 2.9999998, z: -202.13498}
+  m_LocalRotation: {x: -0.000000014409934, y: -0.6859053, z: -0.000000013582481, w: 0.72769094}
+  m_LocalPosition: {x: 17.978733, y: 2.9999998, z: -212.86914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
   - {fileID: 1909850260}
   m_Father: {fileID: 371197987}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &781781972
 PrefabInstance:
@@ -5499,7 +5499,7 @@ GameObject:
   - component: {fileID: 1279106793}
   - component: {fileID: 1279106792}
   m_Layer: 0
-  m_Name: CM vcam standbild Wald
+  m_Name: CAM_4 standbild Wald
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5553,7 +5553,7 @@ Transform:
   m_Children:
   - {fileID: 711784650}
   m_Father: {fileID: 371197987}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1295610973
 PrefabInstance:
@@ -7890,7 +7890,7 @@ GameObject:
   - component: {fileID: 1930134448}
   - component: {fileID: 1930134450}
   m_Layer: 0
-  m_Name: CM vcam behind follow
+  m_Name: CAM_1 follow behind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7939,7 +7939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -220.72449}
+  m_LocalPosition: {x: 0, y: 3, z: -232.68268}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}
@@ -7981,7 +7981,7 @@ GameObject:
   - component: {fileID: 1965154634}
   - component: {fileID: 1965154635}
   m_Layer: 0
-  m_Name: CM vcam trash drone
+  m_Name: CAM_5 trash drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7994,8 +7994,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965154633}
-  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132505}
-  m_LocalPosition: {x: -0.159, y: 50, z: -87.357}
+  m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132506}
+  m_LocalPosition: {x: 0, y: 50, z: -87.357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 654201928}

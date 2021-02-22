@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9211479227631814251
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -3991027139810921438}
+  - {fileID: -81562091938144525}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &-9077617348963622893
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -320,7 +345,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3449089342433961249}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -361,7 +386,7 @@ MonoBehaviour:
   m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 5503505101390328796}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -432,7 +457,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam drone wald
+    m_DisplayName: CAM_2 follow drone
   m_Markers:
     m_Objects: []
 --- !u!114 &-5804562128651308728
@@ -453,7 +478,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 5503505101390328796}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -524,7 +549,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 6.857
     m_ClipIn: 0
@@ -593,7 +618,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 13.714
     m_ClipIn: 0
@@ -662,7 +687,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 27.428
     m_ClipIn: 0
@@ -713,7 +738,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 41.142
     m_ClipIn: 0
@@ -764,7 +789,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 47.999
     m_ClipIn: 0
@@ -833,7 +858,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 54.856
     m_ClipIn: 0
@@ -902,7 +927,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 61.713
     m_ClipIn: 0
@@ -940,25 +965,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -971,7 +978,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 67.6
     m_ClipIn: 0
@@ -985,49 +992,13 @@ MonoBehaviour:
     m_BlendOutDuration: 6.1200000000000045
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1040,7 +1011,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam standbild Wald
+    m_DisplayName: CAM_4 standbild Wald
   - m_Version: 1
     m_Start: 74.8
     m_ClipIn: 0
@@ -1054,25 +1025,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1109,7 +1062,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam trash drone
+    m_DisplayName: CAM_5 trash drone
   - m_Version: 1
     m_Start: 85.057
     m_ClipIn: 0
@@ -1178,7 +1131,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam trash drone
+    m_DisplayName: CAM_5 trash drone
   - m_Version: 1
     m_Start: 91.914
     m_ClipIn: 0
@@ -1247,7 +1200,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam trash drone
+    m_DisplayName: CAM_5 trash drone
   - m_Version: 1
     m_Start: 112.485
     m_ClipIn: 0
@@ -1280,7 +1233,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam behind follow
+    m_DisplayName: CAM_1 follow behind
   - m_Version: 1
     m_Start: 20.571
     m_ClipIn: 0
@@ -1349,7 +1302,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam side follow
+    m_DisplayName: CAM_3 follow side
   - m_Version: 1
     m_Start: 34.285000000000004
     m_ClipIn: 0
@@ -1400,7 +1353,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam drone wald
+    m_DisplayName: CAM_2 follow drone
   - m_Version: 1
     m_Start: 98.771
     m_ClipIn: 0
@@ -1433,7 +1386,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam building shot 1
+    m_DisplayName: CAM_6 building shot 1
   - m_Version: 1
     m_Start: 105.628
     m_ClipIn: 0
@@ -1466,7 +1419,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam building shot 1
+    m_DisplayName: CAM_6 building shot 1
   m_Markers:
     m_Objects: []
 --- !u!114 &-5521137837696261454
@@ -1503,7 +1456,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -9211479227631814251}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -1599,7 +1552,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3449089342433961249}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -1656,7 +1609,7 @@ MonoBehaviour:
   m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 5503505101390328796}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -1727,7 +1680,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam side follow
+    m_DisplayName: CAM_3 follow side
   m_Markers:
     m_Objects: []
 --- !u!114 &-1959123453635594004
@@ -1822,7 +1775,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -9211479227631814251}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -2948,16 +2901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: -5970534399269172960}
-  - {fileID: -3991027139810921438}
-  - {fileID: -5804562128651308728}
-  - {fileID: -3868005338982814796}
-  - {fileID: 8310407027958742747}
-  - {fileID: -5910912334121182832}
-  - {fileID: 931447245721553361}
-  - {fileID: -2179435997119800030}
-  - {fileID: -81562091938144525}
-  - {fileID: 1782424355665799936}
+  - {fileID: 5503505101390328796}
+  - {fileID: 3449089342433961249}
+  - {fileID: -9211479227631814251}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 25
@@ -3030,7 +2976,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3449089342433961249}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -3103,7 +3049,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3449089342433961249}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -3288,6 +3234,34 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: a04c2cb3d3f6d1c49aa098f85d014bd4
     defaultValue: {fileID: 0}
+--- !u!114 &3449089342433961249
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Animations
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -5970534399269172960}
+  - {fileID: -3868005338982814796}
+  - {fileID: 8310407027958742747}
+  - {fileID: 931447245721553361}
+  - {fileID: 1782424355665799936}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &4541734301428628022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3434,6 +3408,32 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 7a0e808ef3d0d484d86f04e61253f863
     defaultValue: {fileID: 0}
+--- !u!114 &5503505101390328796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Cameras
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -5804562128651308728}
+  - {fileID: -5910912334121182832}
+  - {fileID: -2179435997119800030}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!74 &6453831287165862268
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -3928,7 +3928,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3449089342433961249}
   m_Children: []
   m_Clips: []
   m_Markers:

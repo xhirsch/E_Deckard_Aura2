@@ -978,7 +978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111771407}
   m_LocalRotation: {x: 0.70090926, y: -0, z: -0, w: 0.7132505}
-  m_LocalPosition: {x: 0, y: 63, z: 30}
+  m_LocalPosition: {x: 0, y: 63, z: -143.86035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1888223268}
@@ -5411,7 +5411,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_LocalRotation: {x: 0.70090926, y: 0, z: 0, w: 0}
+  m_LocalRotation: {x: 0.70090926, y: 0, z: 0, w: 0.124414206}
   m_LocalPosition: {x: -0.15774569, y: 18.6, z: -67.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5500,7 +5500,7 @@ MonoBehaviour:
   editorQuality: 8
   finalSteps: 8
   shutterAngle: 8.6
-  fStop: 0.6
+  fStop: 1.8
   anamorphicRatio: 1
   focusTransform: {fileID: 925277234}
   rt: {fileID: 0}
@@ -5510,7 +5510,7 @@ MonoBehaviour:
   multipassMat: {fileID: 2100000, guid: 5a2c931c1fe2b49469a13d1429a6bbab, type: 2}
   clearPassMat: {fileID: 2100000, guid: d1e0529f70dd8b743b1dda2dbe02f4c6, type: 2}
   finalPassMat: {fileID: 2100000, guid: fbe4ff8d4dcb4334d933fb2ad8ffea38, type: 2}
-  focusDistance: 19.831686
+  focusDistance: 29.11983
   antiAliasing: 1
   sharpen: 0
   sharpenRadius: 1
@@ -5533,7 +5533,7 @@ MonoBehaviour:
   fullPath: C:\Users\x_h\Documents\Unity\02_Experiments\E_Deckard_Aura2\Capture\
   _prefix: img
   encodeToVideo: 1
-  focalDistance: 75.50474
+  focalDistance: 5.294504
   useAutoFocus: 0
   captureOnPlay: 0
   useHalfResolution: 0
@@ -5624,7 +5624,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559014723}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4b3cc9471c3f7746b383b6dd6256acc, type: 3}
   m_Name: 
@@ -7727,8 +7727,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171957}
-  m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.7071066}
-  m_LocalPosition: {x: 18.000004, y: 3, z: 30.000011}
+  m_LocalRotation: {x: -3.2663708e-19, y: -0.70564324, z: 3.660056e-18, w: 0.7085674}
+  m_LocalPosition: {x: 17.999958, y: 3, z: -143.88106}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155724517}
@@ -10185,7 +10185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994799445}
   m_LocalRotation: {x: 0.4956177, y: -0.5043442, z: 0.4956177, w: 0.5043442}
-  m_LocalPosition: {x: 0, y: 33, z: 30}
+  m_LocalPosition: {x: 0, y: 33, z: -143.86035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 780979213}
@@ -11270,7 +11270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01d29d88278f45458d99e6b5199e920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strength: 2.5
+  strength: 1
   useScattering: 1
   overrideScattering: 1
   overridingScattering: 0.5
@@ -15963,7 +15963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551241469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -7.799999}
+  m_LocalPosition: {x: 0, y: 3, z: -181.66035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1292526649}
@@ -18503,8 +18503,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797978418}
-  m_LocalRotation: {x: -0.10819444, y: 0.8895166, z: -0.34587514, w: -0.27825293}
-  m_LocalPosition: {x: 18.1, y: 32.1, z: 56.1}
+  m_LocalRotation: {x: 0.11127446, y: 0.8874526, z: -0.34047782, w: 0.29003593}
+  m_LocalPosition: {x: -19.1, y: 32.1, z: -117.76035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1507395488}
@@ -19799,7 +19799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930134447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 10}
+  m_LocalPosition: {x: 0, y: 3, z: -163.86035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1636055888}

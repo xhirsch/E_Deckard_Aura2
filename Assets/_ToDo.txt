@@ -1,8 +1,0 @@
-+ Müll Kamera Close Up Fahrt
-+ Wald rauskommen Standbild anpassen
-+ VCam Gebäude Ende in Monolith Timing anpassen
-+ Gebäude 2 Kamerafahrten
-+ Kamera Wald follow ohne Monolith
-+ Kamera Drone ohne Monolith
-+ Kamera look in Himmel mit fliegenden Monolithen
-+ Kamera Flug durch Nebel / Himmmel

@@ -1,13 +1,10 @@
-Feedback Giulia:
-Kamerafahrt Drone Boden in Müll neu animieren > flüssiger Übergang
-Cliping plane erhöhen, Gebäude sieht kacke aus
-Kamera cuts seperat exportieren
-Monolith Geschwindigkeit beim Müll gleich bleibend animieren
-
 ???
 + Kamera Flug durch Nebel / Himmmel
 
 DONE_
++ Monolith Geschwindigkeit beim Müll gleich bleibend animieren
++ Cliping plane erhöhen, Gebäude sieht kacke aus
++ Kamerafahrt Drone Boden in Müll neu animieren > flüssiger Übergang
 + Müll Kamera Close Up Fahrt
 + Wald rauskommen Standbild anpassen
 + VCam Gebäude Ende in Monolith Timing anpassen
